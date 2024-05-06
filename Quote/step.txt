@@ -1,0 +1,21 @@
+                         Build a REST API for giving Quote of the day message to users  using 'python django rest framwork'
+
+step 1 :-  create a django project name as a 'Quote'
+
+step 2 :- create a django app name as a 'Quote_api'
+ 
+step 3 :-  install a djangorestfreamwork  - 'pip install djangorestframwork'
+
+step 4 :- create a model a  name is a 'Quotes' and add fields like ['quote_id','title','quote_no','quote','author']
+
+step 5 :- create a file 'serializers.py' to fatch a all fields in model file.
+
+step 6 :- create a file 'views.py' and create a set of objects.
+
+step 7 :- create a file 'urls.py' in app Quote_api to create a api .   [/quote]
+
+step 8 :- create a api to fatch in main urls.py file.  [/api]
+
+step 9 :- python manage.py makemigrations Quote_api  ,   python manage.py migrate    
+
+step 10 :- run a program 'python manage.py runserver'.
